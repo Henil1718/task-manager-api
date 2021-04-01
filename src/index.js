@@ -12,7 +12,7 @@ app.use(userRouter)
 app.use(taskRouter)
 
 app.get('', async (req, res) => {
-    res.send('<h1>Welcom to task-manager-api</h1>')
+    res.send('<h1>Welcome to task-manager-api</h1>')
 })
 
 app.listen(port, () => {
